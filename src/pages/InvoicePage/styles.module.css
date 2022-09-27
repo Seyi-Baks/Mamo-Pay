@@ -1,0 +1,17 @@
+.content {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.mainContent {
+    width: 82%;
+}
+
+@media (max-width: 1262px) {
+    .mainContent {
+        width: 100%;
+    }
+  }
+
+

@@ -1,0 +1,59 @@
+.modalWrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #F3F5F9;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .modal {
+    width: 60rem;
+    height: auto;
+    background: white;
+    border-radius: 0.313rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 4%;
+    height: 80%;
+  }
+  
+  .addIcon {
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+  }
+
+  .modalButton {
+      position: absolute;
+      right: 0;
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      margin-top: 1%;
+      margin-right: 10px;
+      background-color: white;
+      border: 0;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    
+  }
+
+
+  @media (max-width: 1100px) {
+    .Modal {
+      margin-top: 10%;
+    }
+  }
+
+  @media (max-width: 631px) {
+    .Modal {
+      margin-top: 15%;
+    }
+  }

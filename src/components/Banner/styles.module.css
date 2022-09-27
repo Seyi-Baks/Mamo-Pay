@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Cerebri Sans SemiBold'; 
+    src: url('../../assets/font/Cerebri/Cerebri-Sans-SemiBold.ttf'); 
+  }
+  
+@font-face {
+    font-family: 'Sailec Light'; 
+    src: url('../../assets/font/Sailec/Sailec-Light.woff'); 
+  }
+
+@font-face {
+    font-family: 'Sailec Bold'; 
+    src: url('../../assets/font/Sailec/Sailec-Bold.woff'); 
+  }
+  
+
+.container {
+    background-color: white;
+    height: auto;
+    justify-content: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.header {
+    display: block;
+    width: 88%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.invoiceTitle {
+    margin-bottom: 0;
+    font-family: 'Cerebri Sans SemiBold';
+}
+
+.outstandingAmount {
+    font-family: 'Sailec Light';
+    font-size: 11pt;
+}
+
+.amount {
+font-family: 'Sailec Bold';
+}

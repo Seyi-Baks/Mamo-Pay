@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Cerebi Sans Book'; 
+    src: url('./assets/font/Cerebri-Sans-Book.ttf'); 
+  }
+
+@font-face {
+    font-family: 'Sailec Regular'; 
+    src: url('./assets/font/Sailec/Sailec-Regular.woff'); 
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F3F5F9;
+    font-family: 'Sailec Regular'; 
+    letter-spacing: 0.1px;
+}

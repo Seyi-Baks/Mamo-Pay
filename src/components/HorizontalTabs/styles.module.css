@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Sailec Medium'; 
+  src: url('../../assets/font/Sailec/Sailec-Medium.woff'); 
+}
+
+.TabContainer {
+  height: 2.5rem;
+  width: 100%;
+  height: auto;
+  margin: 2rem 0 0 0;
+  display: flex;
+  overflow: hidden;
+  padding-left: 25px;
+}
+  
+  .TabContainer_tab {
+    height: 100%;
+    border: none;
+    background: transparent;
+    font-size: 12.5pt;
+    line-height: 2rem;
+    cursor: pointer;
+    margin-right: 2rem;
+    padding: 0 0 2rem 0;
+    min-width: fit-content;
+    color: #9BA1B3;
+    font-family: 'Sailec Medium';
+  }
+  
+  .TabContainer_tab__selected {
+    color: #3332FF;
+    border-bottom: 1px solid #3332FF;
+  }
+  
+
+  @media (max-width: 706px) {
+    .TabContainer {
+      position: absolute;
+    }
+  }

@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'Sailec Regular'; 
+    src: url('../../assets/font/Sailec/Sailec-Medium.woff'); 
+  }
+@font-face {
+    font-family: 'Sailec Bold'; 
+    src: url('../../assets/font/Sailec/Sailec-Bold.woff'); 
+  }
+@font-face {
+    font-family: 'Sailec Light'; 
+    src: url('../../assets/font/Sailec/Sailec-Light.woff'); 
+  }
+  
+
+.container {
+    display: block;
+    overflow: hidden;
+    height: 75%;
+    box-sizing: border-box;
+    background-color: white;
+    justify-content: flex-start;
+    border-radius: 16px;
+    width: 93%;
+    margin: 40px auto 0 auto;
+}
+
+.tableHeader {
+    display: block;
+    box-sizing: border-box;
+    width: 95%;
+    margin: 20px auto 0 auto;
+    background-color: #F3F5F9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tableHeader ul {
+    display: flex;
+    width: 96%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.tableHeader ul li {
+    justify-content: flex-start;
+    padding: 16px 0;
+    width: 19%;
+    color: #B1B6C4;
+    font-size: 10pt;
+}
+
+.tableBody ul {
+    display: flex;
+    width: 96%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-bottom: 0.5px solid #E5E9F0;
+    padding: 10px;
+}
+
+.tableBody ul:last-child {
+    border-bottom: 0;
+}
+
+.tableBody ul li {
+    justify-content: flex-start;
+    padding: 16px 0;
+    width: 19%;
+    font-size: 10pt;
+}
+
+.tableBody ul li:last-child {
+    width: 5%;
+}
+
+.tableBody {
+    display: block;
+    box-sizing: border-box;
+    width: 95%;
+    margin: 0 auto 20px auto;
+}
+
+.newInvoice {
+    width: 120px;
+    margin: 2rem 0 0 0;
+    height: 100%;
+    border: none;
+    background:#3332FF;
+    font-size: 11pt;
+    line-height: 2rem;
+    cursor: pointer;
+    margin-right: 2rem;
+    padding: 8px 32px;
+    border-radius: 24px;
+    min-width: fit-content;
+    color: #ffffff;
+    font-family: "Cerebi Sans Book";
+}
+
+.addIcon {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+button > img,
+button > span {
+  vertical-align: middle;
+}
+
+.label_paid {
+    background-color: #E3FAF1;
+    color: #5AC599;
+    padding: 10px;
+    border-radius: 1000px;
+    font-family: 'Sailec Bold';
+    font-size: 8pt;
+}
+.label_outstanding {
+    background-color: #E7E7FF;
+    color: #5555FF;
+    padding: 10px;
+    border-radius: 1000px;
+    font-family: 'Sailec Bold';
+    font-size: 8pt;
+}
+.label_cancelled {
+    background-color: #E5E9F0;
+    color: #5B6370;
+    padding: 10px;
+    border-radius: 1000px;
+    font-family: 'Sailec Bold';
+    font-size: 8pt;
+}
+
+.buttonLabel {
+    font-family: 'Sailec Regular';
+}
+
+  .formContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 85%;
+  }
+
+  .formContent h3 {
+    width: 100%;
+    font-family: 'Sailec Bold'; 
+    font-size: 12pt;
+    margin-top: 1rem;
+  }
+
+  .formContent button {
+    display: block;
+  }
+
+  .formButtonContainer {
+    width: fit-content;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 1rem;
+  }
+
+  .formButtonContainer button {
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+    background-color: #3333FF;
+    color: white;
+    padding: 20px 56px;
+    border-radius: 1000px;
+    border: none;
+    font-size: 16px;
+  }
+
+  .formContent input {
+    width: 47%;
+    padding: 10px 10px 10px 0px;
+    font-size: 12pt;
+    margin-bottom: 48px;
+    font-family: 'Sailec Light';
+    outline: 0;
+    border-width: 0 0 0.5px;
+    border-color: #C7CEDC;
+  }
+  
+  .formContent input:last-child {
+    width: 100%;
+  }
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #9BA1B3;
+    opacity: 1; /* Firefox */
+  }
+
+  .section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+  }
+
+  .formHeader {
+    font-family: 'Sailec Bold'; 
+  }
+
+  .formSubHeading {
+    font-family: 'Sailec Light';
+  }
+
+  .phone {
+    width: 48%;
+  }
+
+  .tableTabs {
+    display: flex;
+    border-bottom: 1px solid #e4e7ec;
+    align-items: baseline;
+  }
+
+    .formHeaderSection {
+      text-align: center;
+      width: 60%;
+      margin: 0 auto;
+    }
+
+    .phoneLabel {
+      font-size: 8pt;
+      width: 47%;
+      color: #9BA1B3;
+    }
+
+  @media (max-width: 1262px) {
+    .buttonLabel {
+      display: none;
+    }
+
+    .newInvoice{
+      border-radius: 10rem;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      min-width: auto;
+      padding: 0;
+    }
+
+    .addIcon {
+      width: 20px;
+      height: 20px;
+      top: 50%;
+      left: 50%;
+      cursor: pointer;
+      right: 50%;
+      margin-right: 0px;
+    }
+
+  }
+
+
+  @media (max-width: 706px) {
+    .newInvoice {
+      position: absolute;
+      bottom: 3%;
+      right: 0%;
+      width: 120px;
+      margin: 2rem 0 0 0;
+      border: none;
+      line-height: 2rem;
+      cursor: pointer;
+      margin-right: 2rem;
+      padding: 8px 32px;
+      border-radius: 24px;
+      min-width: fit-content;
+      font-family: "Cerebi Sans Book";
+    }
+
+    .buttonLabel {
+      display: inline;
+    }
+
+    .tableHeader {
+      display: none;
+    }
+
+    .tableBody {
+      display: none;
+    }
+
+    .container {
+      background-color: transparent;
+    }
+
+    .tableTabs {
+      border-bottom: 0px;
+    }
+  }
